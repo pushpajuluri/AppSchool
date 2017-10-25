@@ -62,6 +62,7 @@ class StudentMenuViewController: UIViewController,UITableViewDelegate,UITableVie
         mysubjectsViewController.techerSelectedSubject = studentMenuObj
         self.navigationController?.pushViewController(mysubjectsViewController, animated: true)
     }
+    
 }
 
 
